@@ -1,4 +1,4 @@
-export type ListenerFunc = (...args: any) => any;
+export type ListenerFunc = (...args: any[]) => void;
 
 export interface Listener {
   listener: ListenerFunc;

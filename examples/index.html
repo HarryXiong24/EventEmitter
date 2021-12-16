@@ -4,15 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TestPage</title>
-    <style>
-      #app {
-        display: flex;
-        margin: 20px;
-        justify-content: space-evenly;
-      }
-    </style>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <h1>EventEmitter 效果展示</h1>
+      <div>
+        <h3>event1 事件</h3>
+        <button id="emit1">触发</button>
+        <button id="remove1">移除</button>
+      </div>
+      <div>
+        <h3>event2 事件</h3>
+        <button id="emit2">触发</button>
+        <button id="remove2">移除</button>
+      </div>
+      <div>
+        <h3>清空整个 Events 列表</h3>
+        <button id="clear">清空</button>
+      </div>
+    </div>
   </body>
 </html>

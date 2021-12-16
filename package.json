@@ -1,7 +1,7 @@
 {
-  "name": "mini-ts-vue",
+  "name": "emitter",
   "version": "1.0.0",
-  "description": "A mini-vue framework developed by Typescript.",
+  "description": "A EventEmitter repository written by TypeScript.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,8 +15,7 @@
     "commit": "git-cz"
   },
   "repository": "",
-  "keywords": ["mini-ts-vue"],
-  "author": "HarryXiong",
+  "author": "Harry Xiong",
   "license": "MIT",
   "bugs": {},
   "devDependencies": {
