@@ -133,7 +133,7 @@ function handleThird(a, b, c) {
 
 emitter.on('demo', handleOne).on('demo', handleSecond).on('demo', handleThird);
 
-emitter.emit('demo', [1, 2, 3]);
+emitter.emit('demo', 1, 2, 3);
 
 // => 第一个监听函数 1 2 3
 // => 第三个监听函数 1 2 3
