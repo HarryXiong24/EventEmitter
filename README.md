@@ -2,9 +2,7 @@
 
 ## Intro
 
-一个简单的 EventEmitter，帮助你实现事件的订阅-发布机制。
-
-原生 TypeScipt 实现，无依赖。
+一个简单的 EventEmitter，实现事件的订阅-发布机制。
 
 ## Usage
 
