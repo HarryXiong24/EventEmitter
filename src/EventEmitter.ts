@@ -37,7 +37,7 @@ function indexOfListener(listener_list: Listener[], listener: ListenerFunc): num
 }
 
 export default class EventEmitter {
-  // 存放所有的监听时间
+  // 存放所有的监听事件
   private _events: Event;
 
   constructor() {
