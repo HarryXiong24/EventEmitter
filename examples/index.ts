@@ -46,4 +46,5 @@ clear?.addEventListener('click', () => {
   alert('事件列表已全部清空！');
 });
 
+// 打印所有存储的事件
 console.log(emitter.getEvents);
